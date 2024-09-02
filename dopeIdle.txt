@@ -1,5 +1,7 @@
 Let's make a game!
 	name:Dope Idle
+	
+Settings
 	stylesheet:https://raw.githubusercontent.com/ZeroFaux716/DopeIdle/main/Style.txt
 
 //GAME DATA
