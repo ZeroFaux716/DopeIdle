@@ -1,22 +1,49 @@
 Let's make a game!
-  name:Dope Idle
+	name:Dope Idle
 
+
+//GAME DATA
 Resources
-  *resMoney
-    name: Money
-    desc: Your currency.
-
-  *resDrugs
-    name: Drugs
-    desc: dRuGs.
+	*resMoney
+		name: Money
+		desc: Your currency.
+	
+Items
+	*resBullet9mm
+		name: 9 mm round
+		desc: 9 mm rounds.
+	
+	*resMagazine9mm
+		name: 9 mm magazine
+		desc: 9 mm magazines.
  
 Upgrades
-  *upBetterDeals
-    name: Better Deals
-    cost: 5000 Money
-    desc: Dealers are willingly to negotiate for better prices.
+	*upBetterDeals
+		name: Better Deals
+		cost: 5000 Money
+		desc: Dealers are willing to negotiate for better prices.
  
-  *upAutoProd
-    name: UV Light
-    cost: 10000 Money
-    desc: A small grow light for 1 plant.
+	*upAutoProd
+		name: UV Light
+		cost: 10000 Money
+		desc: A small grow light for 1 plant.
+
+//LAYOUT
+*main
+	contains:res, buttons
+	*res
+		contains:Resources
+		class:fullWidth
+	*buttons
+		contains:Buttons
+	*store
+		contains:buildings, upgrades
+	*buildings
+		contains:BulkDisplay, Buildings
+		header:Buildings
+		tooltip origin:left
+	*upgrades
+		contains:Upgrades
+		header:Upgrades
+		costs:hide
+		names:hide
