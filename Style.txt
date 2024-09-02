@@ -10,3 +10,9 @@ CSS
 		border-radius:8px;
 		background:rgba(255,255,255,0.5);
 	}
+	
+	.thing-icon,.particle
+	{
+		width:64px;
+		height:64px;
+	}
