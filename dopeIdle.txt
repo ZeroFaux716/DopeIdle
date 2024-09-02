@@ -4,12 +4,10 @@ Let's make a game!
 Resources
   *resMoney
     name: Money
-    amount: 1000
     desc: Your currency.
 
   *resDrugs
     name: Drugs
-    amount: 0
     desc: dRuGs.
  
 Upgrades
