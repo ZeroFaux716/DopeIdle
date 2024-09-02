@@ -15,8 +15,9 @@ CSS
 	{
 		width:32px;
 		height:32px;
-		background-size: 90% 90%;
+		background-size: 75% 75%;
 		background-position: center;
+		background-repeat: no-repeat;
 	}
 	
 	.bulkDisplay
