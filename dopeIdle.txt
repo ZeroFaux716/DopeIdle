@@ -30,7 +30,6 @@ Upgrades
 
 //LAYOUT
 *main
-	contains:res, buttons
 	*res
 		contains:Resources
 		class:fullWidth
