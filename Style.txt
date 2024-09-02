@@ -1,7 +1,12 @@
 CSS
-  #game
-  {
-    background:cornflowerblue;
-    font-family:"Times New Roman",Times,serif;
-    color:black;
-  }
+	#game
+	{
+		background:cornflowerblue;
+		font-family:"Times New Roman",Times,serif;
+		color:black;
+	}
+	.thing
+	{
+		border-radius:8px;
+		background:rgba(255,255,255,0.5);
+	}
