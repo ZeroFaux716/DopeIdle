@@ -1,27 +1,24 @@
 Let's make a game!
   name:My Totally Original Game
 
-Resource: Money
+Resources
   *resMoney
-    Initial Amount: 1000
-    Rate: 10 per minute
- 
-Resource: Drugs
+    name: Money
+    amount: 1000
+    desc: Your currency.
+
   *resDrugs
-    Initial Amount: 0
-    Rate: 0 per minute
+    name: Drugs
+    amount: 0
+    desc: dRuGs.
  
-Upgrade: Better Deals
+Upgrades
   *upBetterDeals
-    Cost: 5000 Money
-    Effect: Increases Drug selling price by 20%
+    name: Better Deals
+    cost: 5000 Money
+    desc: Dealers are willingly to negotiate for better prices.
  
-Upgrade: Automated Production
   *upAutoProd
-    Cost: 10000 Money
-    Effect: Generates Drugs at a rate of 1 per minute
- 
-Event: Market Crash
-  *evMarketCrash
-    Probability: 5%
-    Effect: Reduces Money by 30%
+    name: UV Light
+    cost: 10000 Money
+    desc: A small grow light for 1 plant.
