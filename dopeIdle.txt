@@ -1,5 +1,5 @@
 Let's make a game!
-  name:My Totally Original Game
+  name:Dope Idle
 
 Resources
   *resMoney
