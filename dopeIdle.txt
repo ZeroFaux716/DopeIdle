@@ -29,4 +29,8 @@ Upgrades
 		cost: 10000 Money
 		desc: A small grow light for 1 plant.
 
-//LAYOUT
+Layout
+  use default
+  *achievs
+    in:main
+    contains:Achievements
