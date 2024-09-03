@@ -10,11 +10,11 @@ CSS
 		border-radius:8px;
 		background:rgba(255,255,255,0.5);
 		height: 34px;
-		padding: 2px;
 	}
 	
 	.thing-icon {
 		width: 32px;
 		height: 32px;
 		background-repeat: no-repeat;
+		background-position: center;
 	}
