@@ -9,15 +9,11 @@ CSS
 	{
 		border-radius:8px;
 		background:rgba(255,255,255,0.5);
+		height: 34px;
 	}
 	
 	.thing-icon {
 		width: 32px;
 		height: 32px;
-	}
-
-	.thing-icon img {
-		width: 30px;
-		height: 30px;
 		background-repeat: no-repeat;
 	}
