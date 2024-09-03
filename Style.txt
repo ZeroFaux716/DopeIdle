@@ -19,5 +19,5 @@ CSS
 	.thing-icon img {
 		width: 30px;
 		height: 30px;
-		repeat: no-repeat;
+		background-repeat: no-repeat;
 	}
