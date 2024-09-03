@@ -14,10 +14,10 @@ CSS
 	.thing-icon {
 		width: 32px;
 		height: 32px;
+		background-repeat: no-repeat;
 	}
 
 	.thing-icon img {
 		width: 30px;
 		height: 30px;
-		background-repeat: no-repeat;
 	}
